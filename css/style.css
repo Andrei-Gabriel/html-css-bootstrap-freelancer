@@ -11,4 +11,9 @@
 
 #header {
     background-color: #1abc9c;
+    margin-top: 66px;
 }
+    #header-card {
+        background-color: unset;
+        border: unset;
+    }
