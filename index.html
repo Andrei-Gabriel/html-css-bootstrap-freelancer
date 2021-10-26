@@ -63,7 +63,7 @@
     <!-- Inizio main -->
     <!-- Inizio sezione portfolio -->
     <div class="container text-black my-3">
-        <p class="text-center text-uppercase mb-1 fs-4">portfolio</p>
+        <h2 class="text-center text-uppercase mb-1">portfolio</h2>
         <div class="col d-flex align-items-center justify-content-center">
             <div class="line mx-1 mx-sm-3 bg-dark"></div>
             <i class="fas fa-star fs-4"></i>
@@ -72,44 +72,46 @@
     </div>
 
     <!-- Inizio immagini -->
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mb-4">
-        <div class="col">
-            <div class="box mx-2">
-                <img src="img/cabin.png" style="width: 100%;" alt="#">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-4">
+            <div class="col">
+                <div class="box mx-2">
+                    <img src="img/cabin.png" style="width: 100%;" alt="#">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="box mx-2">
+                    <img src="img/cake.png" style="width: 100%;" alt="#">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="box mx-2">
+                    <img src="img/circus.png" style="width: 100%;" alt="#">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="box mx-2">
+                    <img src="img/game.png" style="width: 100%;" alt="#">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="box mx-2">
+                    <img src="img/safe.png" style="width: 100%;" alt="#">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="box mx-2">
+                    <img src="img/submarine.png" style="width: 100%;" alt="#">
+                </div>
             </div>
         </div>
-
-        <div class="col">
-            <div class="box mx-2">
-                <img src="img/cake.png" style="width: 100%;" alt="#">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="box mx-2">
-                <img src="img/circus.png" style="width: 100%;" alt="#">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="box mx-2">
-                <img src="img/game.png" style="width: 100%;" alt="#">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="box mx-2">
-                <img src="img/safe.png" style="width: 100%;" alt="#">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="box mx-2">
-                <img src="img/submarine.png" style="width: 100%;" alt="#">
-            </div>
-        </div>
-
     </div>
+    
 
     <!-- Inizio sezione about -->
     <div class="container-fluid green text-white">
@@ -125,10 +127,10 @@
         </div>
 
         <div class="row gy-3">
-            <div class="offset-2 col-9 offset-sm-1 col-sm-5">
+            <div class="offset-2 col-8 offset-sm-1 col-sm-5">
                 <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus repellat eos dolor nisi, animi aut esse autem nulla ratione sequi ad, quisquam ducimus accusamus quia provident obcaecati officia, voluptas a!</div>
             </div>
-            <div class="offset-2 col-9 offset-sm-0 col-sm-5">
+            <div class="offset-2 col-8 offset-sm-0 col-sm-5">
                 <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa ipsum vero maiores fugit quo, odio voluptatum. Minus mollitia, ipsa vel tempora rerum neque dignissimos libero pariatur, at atque voluptatibus?</div>
             </div>
         </div>
@@ -141,22 +143,41 @@
     </div>
      
     <!-- Inizio sezione contact me -->
-    <div class="container d-flex flex-column align-items-center">
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+    <div class="container my-4">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="text-uppercase">contact me</h2>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <div class="line mx-1 mx-sm-3 bg-dark"></div>
+                    <i class="fas fa-star fs-4"></i>
+                    <div class="line mx-1 mx-sm-3 bg-dark"></div>
+                </div>
+            </div>
         </div>
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-        </div>
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-        </div>
-        <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Comments</label>
+
+        <div class="row">
+            <div class="offset-2 col-8 offset-sm-1 col-sm-10">
+                <div class="box">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="floatingInput" placeholder="Name">
+                        <label for="floatingInput">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="numer" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="floatingInput" placeholder="Phone Number">
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+
+                    <button type="button" class="green mt-2 text-white btn-sm">Send</button>
+                </div>
+            </div>
         </div>
     </div>
      
@@ -183,6 +204,10 @@
               </div>
             </div>
         </div>
+    </div>
+    
+    <div id="prova">
+        <i class="fab fa-google-plus-g"></i>
     </div>
     
 
