@@ -18,8 +18,18 @@
 #header {
     margin-top: 66px;
 }
-    #header-card {
-        background-color: unset;
-        border: unset;
+    #header-container {
+        width: 310px;
     }
-
+    #header-img {
+        width: 200px;
+    }
+    #title-text {
+        font-size: 30px;
+    }
+    .line {
+        background-color: white;
+        height: 3px;
+        width: 75px;
+        border-radius: 1.5px;
+    }
